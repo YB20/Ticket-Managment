@@ -62,7 +62,7 @@ The Edit Ticket page allows the user to modify the description and status of a t
 
 When attempting to delete a ticket, a confirmation popup appears to ensure the user wants to proceed with the deletion.
 
-T## How to Run the Application
+## How to Run the Application
 
 ### Backend (ASP.NET Core)
 
@@ -124,4 +124,4 @@ npm test
 
 ## Conclusion
 
-This application demonstrates a full-stack approach to ticket management with a focus on CRUD operations, responsive design, and professional code structure. Feel free to customize it for your own needs.
+This application demonstrates a full-stack approach to ticket management with a focus on CRUD operations, responsive design, and professional code structure.
