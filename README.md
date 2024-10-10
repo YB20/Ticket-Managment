@@ -62,4 +62,66 @@ The Edit Ticket page allows the user to modify the description and status of a t
 
 When attempting to delete a ticket, a confirmation popup appears to ensure the user wants to proceed with the deletion.
 
-This application demonstrates a full-stack approach to ticket management with a focus on CRUD operations, responsive design, and professional code structure.
+T## How to Run the Application
+
+### Backend (ASP.NET Core)
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/yourusername/ticket-management-app.git
+   cd ticket-management-app/backend
+   ```
+
+2. **Install dependencies**:
+   Make sure you have .NET SDK installed. You can install the dependencies by running:
+   ```bash
+   dotnet restore
+   ```
+
+3. **Apply database migrations**:
+   Update the database schema with migrations.
+   ```bash
+   dotnet ef database update
+   ```
+
+4. **Run the backend**:
+   Start the ASP.NET backend.
+   ```bash
+   dotnet run
+   ```
+
+5. **Swagger**:
+   The API will be available at `http://localhost:7112/swagger` to test the endpoints.
+
+### Frontend (React)
+
+1. **Navigate to the frontend directory**:
+   ```bash
+   cd ../frontend
+   ```
+
+2. **Install dependencies**:
+   Install the required npm packages by running:
+   ```bash
+   npm install
+   ```
+
+3. **Run the frontend**:
+   Start the React frontend application.
+   ```bash
+   npm start
+   ```
+
+4. **Access the application**:
+   The app will be available at `http://localhost:3000`.
+
+### Run Tests (Frontend)
+
+To run the frontend tests, use the following command:
+```bash
+npm test
+```
+
+## Conclusion
+
+This application demonstrates a full-stack approach to ticket management with a focus on CRUD operations, responsive design, and professional code structure. Feel free to customize it for your own needs.
